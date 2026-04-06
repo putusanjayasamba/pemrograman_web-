@@ -5,10 +5,12 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div>
-      <nav className="fixed top-0 left-0 w-full flex items-center justify-between px-6 py-4 bg-black border-b border-cyan-400 text-white z-50">
-        <div className="text-3xl font-bold text-cyan-400">Sanjaya</div>
+      <nav className="fixed top-0 left-0 w-full flex items-center justify-between px-4 md:px-10 py-4 bg-black border-b border-cyan-400 text-white z-50">
+        <div className="text-2xl md:text-3xl font-bold text-cyan-400">
+          Sanjaya
+        </div>
 
-        <ul className="flex space-x-6 font-bold">
+        <ul className="flex space-x-3 md:space-x-8 font-bold text-[11px] sm:text-sm md:text-base">
           <li>
             <a
               href="#about"
